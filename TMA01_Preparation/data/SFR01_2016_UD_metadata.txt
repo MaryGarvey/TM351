@@ -1,0 +1,889 @@
+Release of underlying data for characteristics breakdowns in SFR 01/2016: Revised GCSE and equivalent results in England: 2014 to 2015.
+
+Background
+This statistical first release (SFR) includes 2014/15 information on attainment for GCSE and equivalent results by different pupil characteristics, specifically gender, ethnicity, eligibility for free school meals (FSM), disadvantage, special educational needs (SEN) and English as a first language, at National and LA level.
+The 2014/15 figures contained within this SFR use data collected for the 2015 Secondary School Performance Tables, which has been checked by schools.
+
+CHANGES TO THE PRODUCTION OF THESE STATISTICS
+Two major reforms were implemented in 2013/14 which affected the calculation of key stage 4 (KS4) performance measures data:
+
+	1. Professor Alison Wolf’s Review of Vocational Education recommendations which; 
+		•	restrict the qualifications counted
+		•	prevent any qualification from counting as larger than one GCSE
+		•	cap the number of non-GCSEs included in performance measures at two per pupil 
+
+	2. An early entry policy to only count a pupil’s first attempt at a qualification.
+ 
+The 2015 secondary school performance measures will continue to be calculated on the same basis, with the addition that the early entry policy now covers all subject areas instead of only those that count in the English Baccalaureate. 
+
+
+
+The following quality and methodology information documents accompany this SFR:
+Revised GCSE and equivalent results in England, 2014 to 2015: Quality and methodology information
+This documents provides further information on the data sources, their coverage, the quality and how the data is validated and processed, as well as further information on the 2013/14 reforms and their extension in 2014/15.
+
+
+Coverage
+The characteristics statistics presented in this SFR cover all state-funded schools, including academies and city technology colleges.
+Geographical breakdowns of figures in tables LA6 to LA10 are based on the local authority maintaining the school.
+Figures in tables PR1 to PR4 are pupil residency based.
+Figures in tables SL1, SL2 and PC1 are school location based.
+
+Validation and quality assurance
+Key stage 4 performance tables data is created when pupils’ key stage 4 attainment records are ‘matched’ to their corresponding school census records and prior attainment records by a matching contractor, using fields such as surname, forename, date of birth, UPN and gender. This successfully matches around 60-75% of pupils.
+Additional, more complex, routines are then applied to match as many of the remaining pupils as possible, up to around 97-98%.
+
+Statistical disclosure control
+To protect confidentiality the following conventions have been used throughout this publication:
+
+•	Low counts (numbers below 3) have been suppressed and replaced by (x).  Secondary suppression has then been applied when necessary to prevent disclosure by differencing.
+•	0 is shown only when the true value is 0.
+•	If a denominator is 0, the associated numerator is replaced with a dot (.) as not applicable.
+
+
+Underlying data files
+SFR01_2016_UD_national_1.csv
+SFR01_2016_UD_national_2.csv
+SFR01_2016_UD_national_2013meth.csv
+SFR01_2016_UD_LA_1.csv
+SFR01_2016_UD_LA_2.csv
+SFR01_2016_UD_residency.csv
+SFR01_2016_UD_school_location.csv
+SFR01_2016_UD_parliamentary_constituency.csv
+
+Variable names
+A list of the headings used in the CSV files and the corresponding variable names are shown at Annex A.
+
+Variable definitions
+
+Major ethnic group category	Minor ethnic group category
+ETHNICGROUP_MAJOR		ETHNICGROUP_MINOR
+White				white British
+				Irish
+				traveller of Irish heritage
+				Gypsy/Roma
+				any other white background
+Mixed				white and black Caribbean
+				white and black African
+				white and asian
+				any other mixed background
+Asian				Indian
+				Pakistani
+				Bangladeshi
+				any other asian background
+Black				black Caribbean
+				black African
+				any other black background
+Chinese				.
+.				any other ethnic group
+.				unclassified
+
+EAL_status - English as a first language Status
+English - First language of pupil is English
+Other than English - First language of pupil is one other than English
+Unclassified
+
+FSM_status - Free school meal (FSM) eligibility
+FSM - Pupil is eligible for FSM
+All other pupils - Pupil is not known to be eligible for FSM or is unclassified
+
+
+Disadvantage_status - Disadvantaged pupils status
+Disadvantaged pupils - Pupil is disadvantaged (eligible for FSM or looked after for one day or adopted from care)
+All other pupils - Pupil is not known to be disadvantaged or is unclassified
+
+* There have been classification changes relating to special educational need (SEN) and type of need in 2014/15
+For 2014/15, following SEND reforms, SEN pupils are categorised as 'SEN with a statement or Education, health and care (EHC) plan' and 'SEN support'. SEN support replaces school action and school action plus but some pupils remain with these provision types in first year of transition. 
+SEN support but no specialist assessment of type is a new SEN type of need for 2014/15. In addition, Behavior,emotional and social difficulty (BESD) has been removed and a new code social emotional and mental health (SEMH) has been introduced. 
+
+SEN_status - Special educational needs (SEN) status
+No special educational need 
+SEN with a statement or education, health and care plan 
+SEN Support 
+
+
+PRIMARYNEED_status - Primary need status
+All Primary Need - All pupils with a primary need (in 2014/15 this consisted of pupils flagged as SEN with a statement, EHC plan, SEN support, school action or school action plus)
+Specific Learning Difficulty
+Moderate Learning Difficulty
+Severe Learning Difficulty
+Profound and Multiple Learning Difficulty
+Social, emotional and mental health
+Speech, Language and Communication Needs
+Hearing Impediment
+Visual Impediment
+Multi-sensory Impairment
+Physical Disability
+Autistic Spectrum Disorder
+Other Difficulty/Disability
+SEN Support but no Specialist Assessment of Type
+
+Deprived_schools - Deprived schools status
+Most deprived - The 10 per cent of schools with the highest proportion of all pupils at the school who are disadvantaged (eligible for FSM in any Spring Autumn, Summer, Alternative Provision or Pupil Referral Unit census from Year 6 to Year 11 or are looked after children).
+Least deprived - The 10 per cent of schools with the lowest proportion of all pupils at the school who are disadvantaged (eligible for FSM in any Spring Autumn, Summer, Alternative Provision or Pupil Referral Unit census from Year 6 to Year 11 or are looked after children).	
+
+Methodology
+The percentage of pupils achieving each indicator is calculated by taking the number of pupils achieving that particular indicator divided by the relevant denominator and multiplying by 100.
+For example, to calculate the percentage of White girls achieving 5 or more A*-C grades at GCSE or equivalent, the calculation would be as follows:
+
+KS4_LEVEL2_girls_white_15 / NATden_girls_white_15 * 100
+
+
+Annex A: A list of Variable names in each file and their description
+
+SFR01_2016_UD_national_1.csv
+Country_code_9_digit: Country code in new 9 digit format	
+Country_code: Country code in old 3 digit format	
+Country_name: Country name	
+Characteristic: Pupil characteristic	
+Characteristic_category: Pupil characteristic category
+NATden_girls_15: Number of girls		
+NATden_boys_15: Number of boys	
+NATden_all_15: Total number of pupils	
+KS4_LEVEL2_girls_15: Number of girls achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_15: Number of boys achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_15: Total number of pupils achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_EM_girls_15: Number of girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_15: Number of boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_15: Total number of pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_15: Number of girls achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_15: Number of boys achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_15: Total number of pupils achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_EM_girls_15: Number of girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_15: Number of boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_15: Total number of pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_15: Number of girls achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_15: Number of boys achieving an A*-C grade in English and mathematics GCSEs		
+KS4_L2BASICS_all_15: Total number of pupils achieving an A*-C grade in English and mathematics GCSEs	
+KS4_LEVEL2MFL_girls_15: Number of girls achieving A*-C grades in a Modern Foreign Language GCSE or equivalent
+KS4_LEVEL2MFL_boys_15: Number of boys achieving A*-C grades in a Modern Foreign Language GCSE or equivalent	
+KS4_LEVEL2MFL_all_15: Total number of pupils achieving A*-C grades in a Modern Foreign Language GCSE or equivalent	
+KS4_GLEVEL2EM_girls_15:	Number of girls achieving 5 or more A*-C grades at GCSE (excluding equivalents) including English and mathematics GCSEs
+KS4_GLEVEL2EM_boys_15: Number of boys achieving 5 or more A*-C grades at GCSE (excluding equivalents) including English and mathematics GCSEs
+KS4_GLEVEL2EM_all_15: Total number of pupils achieving 5 or more A*-C grades at GCSE (excluding equivalents) including English and mathematics GCSEs
+KS4_EBACC_E_girls_15: Number of girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_15: Number of boys entering the English Baccalaureate	
+KS4_EBACC_E_all_15: Total number of pupils entering the English Baccalaureate
+KS4_EBACC_girls_15: Number of girls achieving the English Baccalaureate	
+KS4_EBACC_boys_15: Number of boys achieving the English Baccalaureate	
+KS4_EBACC_all_15: Total number of pupils achieving the English Baccalaureate
+NATden_PROGENG_girls_15: Number of girls included in the English progress measure
+NATden_PROGENG_boys_15: Number of boys included in the English progress measure
+NATden_PROGENG_all_15: Total number of pupils included in the English progress measure
+KS4_PROGENG_girls_15: Number of girls achieving the expected level of progress in English
+KS4_PROGENG_boys_15: Number of boys achieving the expected level of progress in English
+KS4_PROGENG_all_15: Total number of pupils achieving the expected level of progress in English
+NATden_PROGMAT_girls_15: Number of girls included in the mathematics progress measure
+NATden_PROGMAT_boys_15: Number of boys included in the mathematics progress measure
+NATden_PROGMAT_all_15: Total number of pupils included in the mathematics progress measure
+KS4_PROGMAT_girls_15: Number of girls achieving the expected level of progress in mathematics
+KS4_PROGMAT_boys_15: Number of boys achieving the expected level of progress in mathematics
+KS4_PROGMAT_all_15: Total number of pupils achieving the expected level of progress in mathematics
+NATden_girls_FSM_15: Number of girls eligible for FSM	
+NATden_boys_FSM_15: Number of boys eligible for FSM	
+NATden_all_FSM_15: Total number of pupils eligible for FSM	
+KS4_LEVEL2_girls_FSM_15: Number of girls eligible for FSM achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_FSM_15: Number of boys eligible for FSM achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_FSM_15: Total number of pupils eligible for FSM achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_EM_girls_FSM_15: Number of girls eligible for FSM achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_FSM_15: Number of boys eligible for FSM achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_FSM_15: Total number of pupils eligible for FSM achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_FSM_15: Number of girls eligible for FSM achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_FSM_15: Number of boys eligible for FSM achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_FSM_15: Total number of pupils eligible for FSM achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_EM_girls_FSM_15: Number of girls eligible for FSM achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_FSM_15: Number of boys eligible for FSM achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_FSM_15: Total number of pupils eligible for FSM achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_FSM_15: Number of girls eligible for FSM achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_FSM_15: Number of boys eligible for FSM achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_FSM_15: Total number of pupils eligible for FSM achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_FSM_15: Number of girls eligible for FSM entering the English Baccalaureate	
+KS4_EBACC_E_boys_FSM_15: Number of boys eligible for FSM entering the English Baccalaureate	
+KS4_EBACC_E_all_FSM_15: Total number of pupils eligible for FSM entering the English Baccalaureate
+KS4_EBACC_girls_FSM_15: Number of girls eligible for FSM achieving the English Baccalaureate	
+KS4_EBACC_boys_FSM_15: Number of boys eligible for FSM achieving the English Baccalaureate	
+KS4_EBACC_all_FSM_15: Total number of pupils eligible for FSM achieving the English Baccalaureate
+NATden_PROGENG_girls_FSM_15: Number of girls eligible for FSM included in the English progress measure
+NATden_PROGENG_boys_FSM_15: Number of boys eligible for FSM included in the English progress measure
+NATden_PROGENG_all_FSM_15: Total number of pupils eligible for FSM included in the English progress measure
+KS4_PROGENG_girls_FSM_15: Number of girls eligible for FSM achieving the expected level of progress in English
+KS4_PROGENG_boys_FSM_15: Number of boys eligible for FSM achieving the expected level of progress in English
+KS4_PROGENG_all_FSM_15: Total number of pupils eligible for FSM achieving the expected level of progress in English
+NATden_PROGMAT_girls_FSM_15: Number of girls eligible for FSM included in the mathematics progress measure
+NATden_PROGMAT_boys_FSM_15: Number of boys eligible for FSM included in the mathematics progress measure
+NATden_PROGMAT_all_FSM_15: Total number of pupils eligible for FSM included in the mathematics progress measure
+KS4_PROGMAT_girls_FSM_15: Number of girls eligible for FSM achieving the expected level of progress in mathematics
+KS4_PROGMAT_boys_FSM_15: Number of boys eligible for FSM achieving the expected level of progress in mathematics
+KS4_PROGMAT_all_FSM_15: Total number of pupils eligible for FSM achieving the expected level of progress in mathematics
+NATden_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls 	
+NATden_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys 	
+NATden_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils 	
+KS4_LEVEL2_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_EM_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_EM_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys entering the English Baccalaureate	
+KS4_EBACC_E_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils entering the English Baccalaureate
+KS4_EBACC_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving the English Baccalaureate	
+KS4_EBACC_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving the English Baccalaureate	
+KS4_EBACC_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving the English Baccalaureate
+NATden_PROGENG_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls included in the English progress measure
+NATden_PROGENG_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys included in the English progress measure
+NATden_PROGENG_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils included in the English progress measure
+KS4_PROGENG_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving the expected level of progress in English
+KS4_PROGENG_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving the expected level of progress in English
+KS4_PROGENG_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving the expected level of progress in English
+NATden_PROGMAT_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls included in the mathematics progress measure
+NATden_PROGMAT_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys included in the mathematics progress measure
+NATden_PROGMAT_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils included in the mathematics progress measure
+KS4_PROGMAT_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving the expected level of progress in mathematics
+KS4_PROGMAT_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving the expected level of progress in mathematics
+KS4_PROGMAT_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving the expected level of progress in mathematics
+
+
+SFR01_2016_UD_national_2.csv
+Country_code_9_digit: Country code in new 9 digit format	
+Country_code: Country code in old 3 digit format	
+Country_name: Country name	
+Characteristic: Pupil characteristic	
+Characteristic_category: Pupil characteristic category	
+NATden_girls_white_15: Number of White girls	
+NATden_boys_white_15: Number of White boys
+NATden_all_white_15: Total number of White pupils		
+KS4_LEVEL2_girls_white_15: Number of White girls achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_white_15: Number of White boys achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_white_15	: Total number of White pupils achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_EM_girls_white_15: Number of White girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_white_15: Number of White boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_white_15: Total number of White pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_white_15: Number of White girls achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_white_15: Number of White boys achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_white_15: Total number of White pupils achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_EM_girls_white_15: Number of White girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_white_15: Number of White boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_white_15: Total number of White pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_white_15: Number of White girls achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_boys_white_15: Number of White boys achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_white_15: Total number of White pupils achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_white_15: Number of white girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_white_15: Number of white boys entering the English Baccalaureate	
+KS4_EBACC_E_all_white_15: Total number of white pupils entering the English Baccalaureate
+KS4_EBACC_girls_white_15: Number of white girls achieving the English Baccalaureate	
+KS4_EBACC_boys_white_15: Number of white boys achieving the English Baccalaureate	
+KS4_EBACC_all_white_15: Total number white pupils achieving the English Baccalaureate
+NATden_PROGENG_girls_white_15: Number of white girls included in the English progress measure
+NATden_PROGENG_boys_white_15: Number of white boys included in the English progress measure
+NATden_PROGENG_all_white_15: Total number of white pupils included in the English progress measure
+KS4_PROGENG_girls_white_15: Number of white girls achieving the expected level of progress in English
+KS4_PROGENG_boys_white_15: Number of white boys achieving the expected level of progress in English
+KS4_PROGENG_all_white_15: Total number of white pupils achieving the expected level of progress in English
+NATden_PROGMAT_girls_white_15: Number of white girls included in the mathematics progress measure
+NATden_PROGMAT_boys_white_15: Number of white boys included in the mathematics progress measure
+NATden_PROGMAT_all_white_15: Total number of white pupils included in the mathematics progress measure
+KS4_PROGMAT_girls_white_15: Number of white girls achieving the expected level of progress in mathematics
+KS4_PROGMAT_boys_white_15: Number of white boys achieving the expected level of progress in mathematics
+KS4_PROGMAT_all_white_15: Total number of white pupils achieving the expected level of progress in mathematics	
+NATden_girls_mixed_15: Number of mixed girls	
+NATden_boys_mixed_15: Number of mixed boys	
+NATden_all_mixed_15: Total number of mixed pupils	
+KS4_LEVEL2_girls_mixed_15: Number of mixed girls achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_mixed_15: Number of mixed boys achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_mixed_15: Total number of mixed pupils achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_EM_girls_mixed_15: Number of mixed girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_mixed_15: Number of mixed boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_mixed_15: Total number of mixed pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_mixed_15: Number of mixed girls achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_mixed_15: Number of mixed boys achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_mixed_15: Total number of mixed pupils achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_EM_girls_mixed_15: Number of mixed girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_mixed_15: Number of mixed boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_mixed_15: Total number of mixed pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_mixed_15: Number of mixed girls achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_boys_mixed_15: Number of mixed boys achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_mixed_15: Total number of mixed pupils achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_mixed_15: Number of mixed girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_mixed_15: Number of mixed boys entering the English Baccalaureate	
+KS4_EBACC_E_all_mixed_15: Total number of mixed pupils entering the English Baccalaureate
+KS4_EBACC_girls_mixed_15: Number of mixed girls achieving the English Baccalaureate	
+KS4_EBACC_boys_mixed_15: Number of mixed boys achieving the English Baccalaureate	
+KS4_EBACC_all_mixed_15: Total number mixed pupils achieving the English Baccalaureate
+NATden_PROGENG_girls_mixed_15: Number of mixed girls included in the English progress measure
+NATden_PROGENG_boys_mixed_15: Number of mixed boys included in the English progress measure
+NATden_PROGENG_all_mixed_15: Total number of mixed pupils included in the English progress measure
+KS4_PROGENG_girls_mixed_15: Number of mixed girls achieving the expected level of progress in English
+KS4_PROGENG_boys_mixed_15: Number of mixed boys achieving the expected level of progress in English
+KS4_PROGENG_all_mixed_15: Total number of mixed pupils achieving the expected level of progress in English
+NATden_PROGMAT_girls_mixed_15: Number of mixed girls included in the mathematics progress measure
+NATden_PROGMAT_boys_mixed_15: Number of mixed boys included in the mathematics progress measure
+NATden_PROGMAT_all_mixed_15: Total number of mixed pupils included in the mathematics progress measure
+KS4_PROGMAT_girls_mixed_15: Number of mixed girls achieving the expected level of progress in mathematics
+KS4_PROGMAT_boys_mixed_15: Number of mixed boys achieving the expected level of progress in mathematics
+KS4_PROGMAT_all_mixed_15: Total number of mixed pupils achieving the expected level of progress in mathematics
+NATden_girls_asian_15: Number of Asian girls	
+NATden_boys_asian_15: Number of Asian boys	
+NATden_all_asian_15: Total number of Asian pupils	
+KS4_LEVEL2_girls_asian_15: Number of Asian girls achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_asian_15: Number of Asian boys achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_asian_15: Total number of Asian pupils achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_EM_girls_asian_15: Number of Asian girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_asian_15: Number of Asian boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_asian_15: Total number of Asian pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_asian_15: Number of Asian girls achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_asian_15: Number of Asian boys achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_asian_15: Total number of Asian pupils achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_EM_girls_asian_15: Number of Asian girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_asian_15: Number of Asian boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_asian_15: Total number of Asian pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_asian_15: Number of Asian girls achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_boys_asian_15: Number of Asian boys achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_asian_15: Total number of Asian pupils achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_asian_15: Number of Asian girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_asian_15: Number of Asian boys entering the English Baccalaureate	
+KS4_EBACC_E_all_asian_15: Total number of Asian pupils entering the English Baccalaureate
+KS4_EBACC_girls_asian_15: Number of Asian girls achieving the English Baccalaureate	
+KS4_EBACC_boys_asian_15: Number of Asian boys achieving the English Baccalaureate	
+KS4_EBACC_all_asian_15: Total number Asian pupils achieving the English Baccalaureate
+NATden_PROGENG_girls_asian_15: Number of Asian girls included in the English progress measure
+NATden_PROGENG_boys_asian_15: Number of Asian boys included in the English progress measure
+NATden_PROGENG_all_asian_15: Total number of Asian pupils included in the English progress measure
+KS4_PROGENG_girls_asian_15: Number of Asian girls achieving the expected level of progress in English
+KS4_PROGENG_boys_asian_15: Number of Asian boys achieving the expected level of progress in English
+KS4_PROGENG_all_asian_15: Total number of Asian pupils achieving the expected level of progress in English
+NATden_PROGMAT_girls_asian_15: Number of Asian girls included in the mathematics progress measure
+NATden_PROGMAT_boys_asian_15: Number of Asian boys included in the mathematics progress measure
+NATden_PROGMAT_all_asian_15: Total number of Asian pupils included in the mathematics progress measure
+KS4_PROGMAT_girls_asian_15: Number of Asian girls achieving the expected level of progress in mathematics
+KS4_PROGMAT_boys_asian_15: Number of Asian boys achieving the expected level of progress in mathematics
+KS4_PROGMAT_all_asian_15: Total number of Asian pupils achieving the expected level of progress in mathematics
+NATden_girls_black_15: Number of black girls	
+NATden_boys_black_15: Number of black boys	
+NATden_all_black_15: Total number of black pupils	
+KS4_LEVEL2_girls_black_15: Number of black girls achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_black_15: Number of black boys achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_black_15	: Total number of black pupils achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_EM_girls_black_15: Number of black girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_black_15: Number of black boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_black_15: Total number of black pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_black_15: Number of black girls achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_black_15: Number of black boys achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_black_15: Total number of black pupils achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_EM_girls_black_15: Number of black girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_black_15: Number of black boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_black_15: Total number of black pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_black_15: Number of black girls achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_boys_black_15: Number of black boys achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_black_15: Total number of black pupils achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_black_15: Number of black girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_black_15: Number of black boys entering the English Baccalaureate	
+KS4_EBACC_E_all_black_15: Total number of black pupils entering the English Baccalaureate
+KS4_EBACC_girls_black_15: Number of black girls achieving the English Baccalaureate	
+KS4_EBACC_boys_black_15: Number of black boys achieving the English Baccalaureate	
+KS4_EBACC_all_black_15: Total number black pupils achieving the English Baccalaureate
+NATden_PROGENG_girls_black_15: Number of black girls included in the English progress measure
+NATden_PROGENG_boys_black_15: Number of black boys included in the English progress measure
+NATden_PROGENG_all_black_15: Total number of black pupils included in the English progress measure
+KS4_PROGENG_girls_black_15: Number of black girls achieving the expected level of progress in English
+KS4_PROGENG_boys_black_15: Number of black boys achieving the expected level of progress in English
+KS4_PROGENG_all_black_15: Total number of black pupils achieving the expected level of progress in English
+NATden_PROGMAT_girls_black_15: Number of black girls included in the mathematics progress measure
+NATden_PROGMAT_boys_black_15: Number of black boys included in the mathematics progress measure
+NATden_PROGMAT_all_black_15: Total number of black pupils included in the mathematics progress measure
+KS4_PROGMAT_girls_black_15: Number of black girls achieving the expected level of progress in mathematics
+KS4_PROGMAT_boys_black_15: Number of black boys achieving the expected level of progress in mathematics
+KS4_PROGMAT_all_black_15: Total number of black pupils achieving the expected level of progress in mathematics	
+NATden_girls_chinese_15: Number of Chinese girls	
+NATden_boys_chinese_15: Number of Chinese boys	
+NATden_all_chinese_15: Total number of Chinese pupils	
+KS4_LEVEL2_girls_chinese_15: Number of Chinese girls achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_chinese_15: Number of Chinese boys achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_chinese_15: Total number of Chinese pupils achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_EM_girls_chinese_15: Number of Chinese girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_boys_chinese_15: Number of Chinese boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_chinese_15: Total number of Chinese pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_chinese_15: Number of Chinese girls achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_chinese_15: Number of Chinese boys achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_chinese_15: Total number of Chinese pupils achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_EM_girls_chinese_15: Number of Chinese girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_chinese_15: Number of Chinese boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_chinese_15: Total number of Chinese pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_chinese_15: Number of Chinese girls achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_boys_chinese_15: Number of Chinese boys achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_chinese_15: Total number of Chinese pupils achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_chinese_15: Number of Chinese girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_chinese_15: Number of Chinese boys entering the English Baccalaureate	
+KS4_EBACC_E_all_chinese_15: Total number of Chinese pupils entering the English Baccalaureate
+KS4_EBACC_girls_chinese_15: Number of Chinese girls achieving the English Baccalaureate	
+KS4_EBACC_boys_chinese_15: Number of Chinese boys achieving the English Baccalaureate	
+KS4_EBACC_all_chinese_15: Total number Chinese pupils achieving the English Baccalaureate
+NATden_PROGENG_girls_chinese_15: Number of Chinese girls included in the English progress measure
+NATden_PROGENG_boys_chinese_15: Number of Chinese boys included in the English progress measure
+NATden_PROGENG_all_chinese_15: Total number of Chinese pupils included in the English progress measure
+KS4_PROGENG_girls_chinese_15: Number of Chinese girls achieving the expected level of progress in English
+KS4_PROGENG_boys_chinese_15: Number of Chinese boys achieving the expected level of progress in English
+KS4_PROGENG_all_chinese_15: Total number of Chinese pupils achieving the expected level of progress in English
+NATden_PROGMAT_girls_chinese_15: Number of Chinese girls included in the mathematics progress measure
+NATden_PROGMAT_boys_chinese_15: Number of Chinese boys included in the mathematics progress measure
+NATden_PROGMAT_all_chinese_15: Total number of Chinese pupils included in the mathematics progress measure
+KS4_PROGMAT_girls_chinese_15: Number of Chinese girls achieving the expected level of progress in mathematics
+KS4_PROGMAT_boys_chinese_15: Number of Chinese boys achieving the expected level of progress in mathematics
+KS4_PROGMAT_all_chinese_15: Total number of Chinese pupils achieving the expected level of progress in mathematics	
+
+
+
+SFR01_2016_UD_LA_1.csv
+Country_code_9_digit: Country code in new 9 digit format
+Country_code: Country code in old 3 digit format
+Country_name: Country name
+Region_code_9_digit: Region code in new 9 digit format
+Region_code: Region code in old 3 digit format
+Region_name: Region name
+LA_code_9_digit: local authority code in new 9 digit format
+LA_code: local authority code in old 3 digit format
+LA_name: local authority name
+Laden_girls_15: Number of girls
+Laden_boys_15: Number of boys
+Laden_all_15: Total number of pupils
+KS4_LEVEL2_girls_15: Number of girls achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_boys_15: Number of boys achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_all_15: Total number of pupils achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_EM_girls_15: Number of girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_boys_15: Number of boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_all_15: Total number of pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_girls_15: Number of girls achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_boys_15: Number of boys achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_all_15: Total number of pupils achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_EM_girls_15: Number of girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_boys_15: Number of boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_all_15: Total number of pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_L2BASICS_girls_15: Number of girls achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_15: Number of boys achieving an A*-C grade in English and mathematics GCSEs		
+KS4_L2BASICS_all_15: Total number of pupils achieving an A*-C grade in English and mathematics GCSEs	
+KS4_EBACC_E_girls_15: Number of girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_15: Number of boys entering the English Baccalaureate	
+KS4_EBACC_E_all_15: Total number of pupils entering the English Baccalaureate
+KS4_EBACC_girls_15: Number of girls achieving the English Baccalaureate	
+KS4_EBACC_boys_15: Number of boys achieving the English Baccalaureate	
+KS4_EBACC_all_15: Total number of pupils achieving the English Baccalaureate
+Laden_girls_white_15: Number of white girls
+Laden_boys_white_15: Number of white boys
+Laden_all_white_15: Total number of white pupils 
+KS4_LEVEL2_girls_white_15: Number of white girls achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_boys_white_15: Number of white boys achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_all_white_15: Total number of white pupils achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_EM_girls_white_15: Number of white girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_boys_white_15: Number of white boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_all_white_15: Total number of white pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_girls_white_15: Number of white girls achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_boys_white_15: Number of white boys achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_all_white_15: Total number of white pupils achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_EM_girls_white_15: Number of white girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_boys_white_15: Number of white boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_all_white_15: Total number of white pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_L2BASICS_girls_white_15: Number of white girls achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_white_15: Number of white boys achieving an A*-C grade in English and mathematics GCSEs		
+KS4_L2BASICS_all_white_15: Total number of white pupils achieving an A*-C grade in English and mathematics GCSEs	
+KS4_EBACC_E_girls_white_15: Number of white girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_white_15: Number of white boys entering the English Baccalaureate	
+KS4_EBACC_E_all_white_15: Total number of white pupils entering the English Baccalaureate
+KS4_EBACC_girls_white_15: Number of white girls achieving the English Baccalaureate	
+KS4_EBACC_boys_white_15: Number of white boys achieving the English Baccalaureate	
+KS4_EBACC_all_white_15: Total number of white pupils achieving the English Baccalaureate
+Laden_girls_mixed_15: Number of mixed girls
+Laden_boys_mixed_15: Number of mixed boys
+Laden_all_mixed_15: Total number of mixed pupils
+KS4_LEVEL2_girls_mixed_15: Number of mixed girls achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_boys_mixed_15: Number of mixed boys achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_all_mixed_15: Total number of mixed pupils achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_EM_girls_mixed_15: Number of mixed girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_boys_mixed_15: Number of mixed boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_all_mixed_15: Total number of mixed pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_girls_mixed_15: Number of mixed girls achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_boys_mixed_15: Number of mixed boys achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_all_mixed_15: Total number of mixed pupils achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_EM_girls_mixed_15: Number of mixed girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_boys_mixed_15: Number of mixed boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_all_mixed_15: Total number of mixed pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_L2BASICS_girls_mixed_15: Number of mixed girls achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_mixed_15: Number of mixed boys achieving an A*-C grade in English and mathematics GCSEs		
+KS4_L2BASICS_all_mixed_15: Total number of mixed pupils achieving an A*-C grade in English and mathematics GCSEs	
+KS4_EBACC_E_girls_mixed_15: Number of mixed girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_mixed_15: Number of mixed boys entering the English Baccalaureate	
+KS4_EBACC_E_all_mixed_15: Total number of mixed pupils entering the English Baccalaureate
+KS4_EBACC_girls_mixed_15: Number of mixed girls achieving the English Baccalaureate	
+KS4_EBACC_boys_mixed_15: Number of mixed boys achieving the English Baccalaureate	
+KS4_EBACC_all_mixed_15: Total number of mixed pupils achieving the English Baccalaureate
+Laden_girls_asian_15: Number of Asian girls
+Laden_boys_asian_15: Number of Asian boys
+Laden_all_asian_15: Total number of Asian pupils
+KS4_LEVEL2_girls_asian_15: Number of Asian girls achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_boys_asian_15: Number of Asian boys achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_all_asian_15: Total number of Asian pupils achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_EM_girls_asian_15: Number of Asian girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_boys_asian_15: Number of Asian boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_all_asian_15: Total number of Asian pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_girls_asian_15: Number of Asian girls achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_boys_asian_15: Number of Asian boys achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_all_asian_15: Total number of Asian pupils achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_EM_girls_asian_15: Number of Asian girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_boys_asian_15: Number of Asian boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_all_asian_15: Total number of Asian pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_L2BASICS_girls_asian_15: Number of Asian girls achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_asian_15: Number of Asian boys achieving an A*-C grade in English and mathematics GCSEs		
+KS4_L2BASICS_all_asian_15: Total number of Asian pupils achieving an A*-C grade in English and mathematics GCSEs	
+KS4_EBACC_E_girls_asian_15: Number of Asian girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_asian_15: Number of Asian boys entering the English Baccalaureate	
+KS4_EBACC_E_all_asian_15: Total number of Asian pupils entering the English Baccalaureate
+KS4_EBACC_girls_asian_15: Number of Asian girls achieving the English Baccalaureate	
+KS4_EBACC_boys_asian_15: Number of Asian boys achieving the English Baccalaureate	
+KS4_EBACC_all_asian_15: Total number of Asian pupils achieving the English Baccalaureate
+Laden_girls_black_15: Number of black girls
+Laden_boys_black_15: Number of black boys
+Laden_all_black_15: Total number of black pupils
+KS4_LEVEL2_girls_black_15: Number of black girls achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_boys_black_15: Number of black boys achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_all_black_15: Total number of black pupils achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_EM_girls_black_15: Number of black girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_boys_black_15: Number of black boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_all_black_15: Total number of black pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_girls_black_15: Number of black girls achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_boys_black_15: Number of black boys achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_all_black_15: Total number of black pupils achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_EM_girls_black_15: Number of black girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_black_15: Number of black boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_black_15: Total number of black pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_black_15: Number of black girls achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_black_15: Number of black boys achieving an A*-C grade in English and mathematics GCSEs		
+KS4_L2BASICS_all_black_15: Total number of black pupils achieving an A*-C grade in English and mathematics GCSEs	
+KS4_EBACC_E_girls_black_15: Number of black girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_black_15: Number of black boys entering the English Baccalaureate	
+KS4_EBACC_E_all_black_15: Total number of black pupils entering the English Baccalaureate
+KS4_EBACC_girls_black_15: Number of black girls achieving the English Baccalaureate	
+KS4_EBACC_boys_black_15: Number of black boys achieving the English Baccalaureate	
+KS4_EBACC_all_black_15: Total number of black pupils achieving the English Baccalaureate
+Laden_girls_chinese_15: Number of Chinese girls	
+Laden_boys_chinese_15: Number of Chinese boys		
+Laden_all_chinese_15: Total number of Chinese pupils	
+KS4_LEVEL2_girls_chinese_15: Number of Chinese girls achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_chinese_15: Number of Chinese boys achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_chinese_15: Total number of Chinese pupils achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_EM_girls_chinese_15: Number of Chinese girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_boys_chinese_15: Number of Chinese boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_chinese_15: Total number of Chinese pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_chinese_15: Number of Chinese girls achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_chinese_15: Number of Chinese boys achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_chinese_15: Total number of Chinese pupils achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_EM_girls_chinese_15: Number of Chinese girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_boys_chinese_15: Number of Chinese boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_chinese_15: Total number of Chinese pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_L2BASICS_girls_chinese_15: Number of Chinese girls achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_chinese_15: Number of Chinese boys achieving an A*-C grade in English and mathematics GCSEs		
+KS4_L2BASICS_all_chinese_15: Total number of Chinese pupils achieving an A*-C grade in English and mathematics GCSEs	
+KS4_EBACC_E_girls_chinese_15: Number of Chinese girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_chinese_15: Number of Chinese boys entering the English Baccalaureate	
+KS4_EBACC_E_all_chinese_15: Total number of Chinese pupils entering the English Baccalaureate
+KS4_EBACC_girls_chinese_15: Number of Chinese girls achieving the English Baccalaureate	
+KS4_EBACC_boys_chinese_15: Number of Chinese boys achieving the English Baccalaureate	
+KS4_EBACC_all_chinese_15: Total number of Chinese pupils achieving the English Baccalaureate
+Laden_girls_English_15: Number of girls whose first language is English	
+Laden_boys_English_15: Number of boys whose first language is English		
+Laden_all_English_15: Total number of pupils whose first language is English	
+KS4_LEVEL2_girls_English_15: Number of girls whose first language is English achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_English_15: Number of boys whose first language is English achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_English_15: Total number of pupils whose first language is English achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_EM_girls_English_15: Number of girls whose first language is English achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_English_15: Number of boys whose first language is English achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_English_15: Total number of pupils whose first language is English achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_English_15: Number of girls whose first language is English achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_English_15: Number of boys whose first language is English achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_English_15: Total number of pupils whose first language is English achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_EM_girls_English_15: Number of girls whose first language is English achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_English_15: Number of boys whose first language is English achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_English_15: Total number of pupils whose first language is English achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_L2BASICS_girls_English_15: Number of girls whose first language is English achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_English_15: Number of boys whose first language is English achieving an A*-C grade in English and mathematics GCSEs		
+KS4_L2BASICS_all_English_15: Total number of pupils whose first language is English achieving an A*-C grade in English and mathematics GCSEs	
+KS4_EBACC_E_girls_English_15: Number of girls whose first language is English entering the English Baccalaureate	
+KS4_EBACC_E_boys_English_15: Number of boys whose first language is English entering the English Baccalaureate	
+KS4_EBACC_E_all_English_15: Total number of pupils whose first language is English entering the English Baccalaureate
+KS4_EBACC_girls_English_15: Number of girls whose first language is English achieving the English Baccalaureate	
+KS4_EBACC_boys_English_15: Number of boys whose first language is English achieving the English Baccalaureate	
+KS4_EBACC_all_English_15: Total number of pupils whose first language is English achieving the English Baccalaureate
+Laden_girls_otherthanEnglish_15: Number of girls whose first language is other than English
+Laden_boys_otherthanEnglish_15: Number of boys whose first language is other than English	
+Laden_all_otherthanEnglish_15: Total number of pupils whose first language is other than English	
+KS4_LEVEL2_girls_otherthanEnglish_15: Number of girls whose first language is other than English achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_otherthanEnglish_15: Number of boys whose first language is other than English achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_otherthanEnglish_15: Total number of pupils whose first language is other than English achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_EM_girls_otherthanEnglish_15: Number of girls whose first language is other than English achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_boys_otherthanEnglish_15: Number of boys whose first language is other than English achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_otherthanEnglish_15: Total number of pupils whose first language is other than English achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_otherthanEnglish_15: Number of girls whose first language is other than English achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_otherthanEnglish_15: Number of boys whose first language is other than English achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_otherthanEnglish_15: Total number of pupils whose first language is other than English achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_EM_girls_otherthanEnglish_15: Number of girls whose first language is other than English achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_otherthanEnglish_15: Number of boys whose first language is other than English achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_all_otherthanEnglish_15: Total number of pupils whose first language is other than English achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_otherthanEnglish_15: Number of girls whose first language is other than English achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_otherthanEnglish_15: Number of boys whose first language is other than English achieving an A*-C grade in English and mathematics GCSEs		
+KS4_L2BASICS_all_otherthanEnglish_15: Total number of pupils whose first language is other than English achieving an A*-C grade in English and mathematics GCSEs	
+KS4_EBACC_E_girls_otherthanEnglish_15: Number of girls whose first language is other than English entering the English Baccalaureate	
+KS4_EBACC_E_boys_otherthanEnglish_15: Number of boys whose first language is other than English entering the English Baccalaureate	
+KS4_EBACC_E_all_otherthanEnglish_15: Total number of pupils whose first language is other than English entering the English Baccalaureate
+KS4_EBACC_girls_otherthanEnglish_15: Number of girls whose first language is other than English achieving the English Baccalaureate	
+KS4_EBACC_boys_otherthanEnglish_15: Number of boys whose first language is other than English achieving the English Baccalaureate	
+KS4_EBACC_all_otherthanEnglish_15: Total number of pupils whose first language is other than English achieving the English Baccalaureate
+
+
+
+SFR01_2016_UD_LA_2.csv
+Country_code_9_digit: Country code in new 9 digit format
+Country_code: Country code in old 3 digit format
+Country_name: Country name
+Region_code_9_digit: Region code in new 9 digit format
+Region_code: Region code in old 3 digit format
+Region_name: Region name
+LA_code_9_digit: local authority code in new 9 digit format
+LA_code: local authority code in old 3 digit format
+LA_name: local authority name
+Laden_girls_FSM_15: Number of girls eligible for FSM	
+Laden_boys_FSM_15: Number of boys eligible for FSM	
+Laden_all_FSM_15: Total number of pupils eligible for FSM	
+KS4_LEVEL2_girls_FSM_15: Number of girls eligible for FSM achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_FSM_15: Number of boys eligible for FSM achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_all_FSM_15: Total number of pupils eligible for FSM achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_EM_girls_FSM_15: Number of girls eligible for FSM achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_FSM_15: Number of boys eligible for FSM achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_FSM_15: Total number of pupils eligible for FSM achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_FSM_15: Number of girls eligible for FSM achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_FSM_15: Number of boys eligible for FSM achieving 5 or more A*-G grades at GCSE or equivalent		
+KS4_LEVEL1_all_FSM_15: Total number of pupils eligible for FSM achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_EM_girls_FSM_15: Number of girls eligible for FSM achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_FSM_15: Number of boys eligible for FSM achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_FSM_15: Total number of pupils eligible for FSM achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_FSM_15: Number of girls eligible for FSM achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_FSM_15: Number of boys eligible for FSM achieving an A*-C grade in English and mathematics GCSEs		
+KS4_L2BASICS_all_FSM_15: Total number of pupils eligible for FSM achieving an A*-C grade in English and mathematics GCSEs	
+KS4_EBACC_E_girls_FSM_15: Number of girls eligible for FSM entering the English Baccalaureate	
+KS4_EBACC_E_boys_FSM_15: Number of boys eligible for FSM entering the English Baccalaureate	
+KS4_EBACC_E_all_FSM_15: Total number of pupils eligible for FSM entering the English Baccalaureate
+KS4_EBACC_girls_FSM_15: Number of girls eligible for FSM achieving the English Baccalaureate	
+KS4_EBACC_boys_FSM_15: Number of boys eligible for FSM achieving the English Baccalaureate	
+KS4_EBACC_all_FSM_15: Total number of pupils eligible for FSM achieving the English Baccalaureate
+Laden_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls 	
+Laden_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys
+Laden_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils 
+KS4_LEVEL2_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_EM_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_EM_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls entering the English Baccalaureate	
+KS4_EBACC_E_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys entering the English Baccalaureate	
+KS4_EBACC_E_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils entering the English Baccalaureate
+KS4_EBACC_girls_allother_15: Number of all other (not eligible for FSM or unclassified) girls achieving the English Baccalaureate	
+KS4_EBACC_boys_allother_15: Number of all other (not eligible for FSM or unclassified) boys achieving the English Baccalaureate	
+KS4_EBACC_all_allother_15: Total number of all other (not eligible for FSM or unclassified) pupils achieving the English Baccalaureate
+Laden_girls_noSEN_15: Number of girls without any identified SEN	
+Laden_boys_noSEN_15: Number of boys without any identified SEN	
+Laden_all_noSEN_15: Total number of pupils without any identified SEN	
+KS4_LEVEL2_girls_noSEN_15: Number of girls without any indentified SEN achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_boys_noSEN_15: Number of boys without any indentified SEN achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_noSEN_15	: Total number of pupils without any indentified SEN achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_EM_girls_noSEN_15: Number of girls without any identified SEN achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_noSEN_15: Number of boys without any identified SEN achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_noSEN_15: Total number of pupils without any identified SEN achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_noSEN_15: Number of girls without any indentified SEN achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_noSEN_15: Number of boys without any indentified SEN achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_noSEN_15: Total number of pupils without any indentified SEN achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_EM_girls_noSEN_15: Number of girls without any identified SEN achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_noSEN_15: Number of boys without any identified SEN achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_noSEN_15: Total number of pupils without any identified SEN achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_noSEN_15: Number of girls without any identified SEN achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_noSEN_15: Number of boys without any identified SEN achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_noSEN_15: Total number of pupils without any identified SEN achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_noSEN_15: Number of girls without any identified SEN entering the English Baccalaureate	
+KS4_EBACC_E_boys_noSEN_15: Number of boys without any identified SEN entering the English Baccalaureate	
+KS4_EBACC_E_all_noSEN_15: Total number of pupils without any identified SEN entering the English Baccalaureate
+KS4_EBACC_girls_noSEN_15: Number of girls without any identified SEN achieving the English Baccalaureate	
+KS4_EBACC_boys_noSEN_15: Number of boys without any identified SEN achieving the English Baccalaureate	
+KS4_EBACC_all_noSEN_15: Total number of pupils without any identified SEN achieving the English Baccalaureate
+Laden_girls_SENsupport_15: Number of girls with SEN support
+Laden_boys_SENsupport_15: Number of boys with SEN support	
+Laden_all_SENsupport_15: Total number of pupils with SEN support
+KS4_LEVEL2_girls_SENsupport_15: Number of girls with SEN support achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_boys_SENsupport_15: Number of boys with SEN support achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_SENsupport_15: Total number of pupils with SEN support achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_EM_girls_SENsupport_15: Number of girls with SEN support achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_SENsupport_15: Number of boys with SEN support achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_SENsupport_15: Total number of pupils with SEN support achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_SENsupport_15: Number of girls with SEN support achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_SENsupport_15: Number of boys with SEN support achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_SENsupport_15: Total number of pupils with SEN support achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_EM_girls_SENsupport_15: Number of girls with SEN support achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_boys_SENsupport_15: Number of boys with SEN support achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_EM_all_SENsupport_15: Total number of pupils with SEN support achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_L2BASICS_girls_SENsupport_15: Number of girls with SEN support achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_SENsupport_15: Number of boys with SEN support achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_SENsupport_15: Total number of pupils with SEN support achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_SENsupport_15: Number of girls with SEN support entering the English Baccalaureate	
+KS4_EBACC_E_boys_SENsupport_15: Number of boys with SEN support entering the English Baccalaureate	
+KS4_EBACC_E_all_SENsupport_15: Total number of pupils with SEN support entering the English Baccalaureate
+KS4_EBACC_girls_SENsupport_15: Number of girls with SEN support achieving the English Baccalaureate	
+KS4_EBACC_boys_SENsupport_15: Number of boys with SEN support achieving the English Baccalaureate	
+KS4_EBACC_all_SENsupport_15: Total number of pupils with SEN support achieving the English Baccalaureate
+Laden_girls_SENwithstatement_EHCplan_15: Number of girls with a statement of SEN or EHC plan	
+Laden_boys_SENwithstatement_EHCplan_15: Number of boys with a statement of SEN or EHC plan
+Laden_all_SENwithstatement_EHCplan_15: Total number of pupils with a statement of SEN or EHC plan	
+KS4_LEVEL2_girls_SENwithstatement_EHCplan_15: Number of girls with a statement of SEN or EHC plan achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_boys_SENwithstatement_EHCplan_15: Number of boys with a statement of SEN or EHC plan achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_all_SENwithstatement_EHCplan_15: Total number of pupils with a statement of SEN or EHC plan achieving 5 or more A*-C grades at GCSE or equivalent	
+KS4_LEVEL2_EM_girls_SENwithstatement_EHCplan_15: Number of girls with a statement of SEN or EHC plan achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_boys_SENwithstatement_EHCplan_15: Number of boys with a statement of SEN or EHC plan achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL2_EM_all_SENwithstatement_EHCplan_15: Total number of pupils with a statement of SEN or EHC plan achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs	
+KS4_LEVEL1_girls_SENwithstatement_EHCplan_15: Number of girls with a statement of SEN or EHC plan achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_boys_SENwithstatement_EHCplan_15: Number of boys with a statement of SEN or EHC plan achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_all_SENwithstatement_EHCplan_15: Total number of pupils with a statement of SEN or EHC plan achieving 5 or more A*-G grades at GCSE or equivalent	
+KS4_LEVEL1_EM_girls_SENwithstatement_EHCplan_15: Number of girls with a statement of SEN or EHC plan achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_boys_SENwithstatement_EHCplan_15: Number of boys with a statement of SEN or EHC plan achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_all_SENwithstatement_EHCplan_15: Total number of pupils with a statement of SEN or EHC plan achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_L2BASICS_girls_SENwithstatement_EHCplan_15: Number of girls with a statement of SEN or EHC plan achieving an A*-C grade in English and mathematics GCSEs	
+KS4_L2BASICS_boys_SENwithstatement_EHCplan_15: Number of boys with a statement of SEN or EHC plan achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_SENwithstatement_EHCplan_15: Total number of pupils with a statement of SEN or EHC plan achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_SENwithstatement_EHCplan_15: Number of girls with a statement of SEN or EHC plan entering the English Baccalaureate	
+KS4_EBACC_E_boys_SENwithstatement_EHCplan_15: Number of boys with a statement of SEN or EHC plan entering the English Baccalaureate	
+KS4_EBACC_E_all_SENwithstatement_EHCplan_15: Total number of pupils with a statement of SEN or EHC plan entering the English Baccalaureate
+KS4_EBACC_girls_SENwithstatement_EHCplan_15: Number of girls with a statement of SEN or EHC plan achieving the English Baccalaureate	
+KS4_EBACC_boys_SENwithstatement_EHCplan_15: Number of boys with a statement of SEN or EHC plan achieving the English Baccalaureate	
+KS4_EBACC_all_SENwithstatement_EHCplan_15: Total number of pupils with a statement of SEN or EHC plan achieving the English Baccalaureate
+Laden_girls_DISADV_15: Number of girls who are disadvantaged 
+Laden_boys_DISADV_15: Number of boys who are disadvantaged 
+Laden_all_DISADV_15: Number of pupils who are disadvantaged 
+KS4_LEVEL2_girls_DISADV_15: Number of girls who are disadvantaged achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_boys_DISADV_15: Number of boys who are disadvantaged achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_all_DISADV_15: Number of pupils who are disadvantaged achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_EM_girls_DISADV_15: Number of girls who are disadvantaged achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_boys_DISADV_15: Number of boys who are disadvantaged achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_all_DISADV_15: Number of pupils who are disadvantaged achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_girls_DISADV_15: Number of girls who are disadvantaged achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_boys_DISADV_15: Number of boys who are disadvantaged achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_all_DISADV_15: Number of pupils who are disadvantaged achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_EM_girls_DISADV_15: Number of girls who are disadvantaged achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_boys_DISADV_15: Number of boys who are disadvantaged achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_all_DISADV_15: Number of pupils who are disadvantaged achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_L2BASICS_girls_DISADV_15: Number of girls who are disadvantaged achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_boys_DISADV_15: Number of boys who are disadvantaged achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_DISADV_15: Number of pupils who are disadvantaged achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_DISADV_15: Number of girls who are disadvantaged entering the English Baccalaureate
+KS4_EBACC_E_boys_DISADV_15: Number of boys who are disadvantaged entering the English Baccalaureate
+KS4_EBACC_E_all_DISADV_15: Number of pupils who are disadvantaged entering the English Baccalaureate
+KS4_EBACC_girls_DISADV_15: Number of girls who are disadvantaged achieving the English Baccalaureate
+KS4_EBACC_boys_DISADV_15: Number of boys who are disadvantaged achieving the English Baccalaureate
+KS4_EBACC_all_DISADV_15: Number of pupils who are disadvantaged achieving the English Baccalaureate
+Laden_girls_allother_15: Number of girls who are not disadvantaged 
+Laden_boys_allother_15: Number of boys who are not disadvantaged 
+Laden_all_allother_15: Number of pupils who are not disadvantaged 
+KS4_LEVEL2_girls_allother_15: Number of girls who are not disadvantaged achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_boys_allother_15: Number of boys who are not disadvantaged achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_all_allother_15: Number of pupils who are not disadvantaged achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_EM_girls_allother_15: Number of girls who are not disadvantaged achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_boys_allother_15: Number of boys who are not disadvantaged achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL2_EM_all_allother_15: Number of pupils who are not disadvantaged achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_girls_allother_15: Number of girls who are not disadvantaged achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_boys_allother_15: Number of boys who are not disadvantagedachieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_all_allother_15: Number of pupils who are not disadvantaged achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_EM_girls_allother_15: Number of girls who are not disadvantaged achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_boys_allother_15: Number of boys who are not disadvantaged achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_EM_all_allother_15: Number of pupils who are not disadvantaged achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_L2BASICS_girls_allother_15: Number of girls who are not disadvantaged achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_boys_allother_15: Number of boys who are not disadvantaged achieving an A*-C grade in English and mathematics GCSEs
+KS4_L2BASICS_all_allother_15: Number of pupils who are not disadvantaged achieving an A*-C grade in English and mathematics GCSEs
+KS4_EBACC_E_girls_allother_15: Number of girls who are not disadvantaged entering the English Baccalaureate+
+KS4_EBACC_E_boys_allother_15: Number of boys who are not disadvantaged entering the English Baccalaureate
+KS4_EBACC_E_all_allother_15: Number of pupils who are not disadvantaged entering the English Baccalaureate
+KS4_EBACC_girls_allother_15: Number of girls who are not disadvantaged achieving the English Baccalaureate
+KS4_EBACC_boys_allother_15: Number of boys who are not disadvantaged achieving the English Baccalaureate
+KS4_EBACC_all_allother_15: Number of pupils who are not disadvantaged achieving the English Baccalaureate
+
+
+SFR01_2016_UD_residency.csv
+Country_code_9_digit: Country of residence code in new 9 digit format
+Country_code: Country of residence code in old 3 digit format
+Country_name: Country of residence name
+Region_code_9_digit: Region of residence code in new 9 digit format
+Region_code: Region of residence code in old 3 digit format
+Region_name: Region of residence name
+LAD_code_9_digit: local authority District of residence code in new 9 digit format
+LAD_code: local authority District of residence code in old 3 digit format
+LAD_name: local authority District of residence name in old 3 digit format
+IDACI_decile: Income Deprivation Affecting Children Index Decile
+Rurality: Degree of Rurality
+A1A4den_15: Number of resident pupils
+KS4_LEVEL2_15: Number of resident pupils achieving 5 or more A*-C grades at GCSE and equivalent
+KS4_LEVEL2_EM_15: Number of resident pupils achieving 5 or more A*-C grades at GCSE and equivalent including English and mathematics GCSEs
+KS4_LEVEL1_15: Number of resident pupils achieving 5 or more A*-G grades at GCSE and equivalent
+KS4_LEVEL1_EM_15: Number of resident pupils achieving 5 or more A*-G grades at GCSE and equivalent including English and mathematics GCSEs
+KS4_L2BASICS_15: Number of resident pupils achieving an A*-C grade in English and mathematics GCSEs	
+KS4_EBACC_E_15: Number of resident pupils entering the English Baccalaureate
+KS4_EBACC_15: Number of resident pupils achieving the English Baccalaureate
+
+SFR01_2016_UD_school_location.csv
+Country_code_9_digit: Country of school location code in new 9 digit format
+Country_code: Country of school location code in old 3 digit format
+Country_name: Country of school location name
+Region_code_9_digit: Region of residence code in new 9 digit format
+Region_code: Region of school location code in old 3 digit format
+Region_name: Region of school location name
+LAD_code_9_digit: local authority District of school location code in new 9 digit format
+LAD_code: local authority District of school location code in old 3 digit format
+LAD_name: local authority District of school location name in old 3 digit format
+Rurality: Degree of Rurality
+B1B2den_15: Number of pupils
+KS4_LEVEL2_15: Number of pupils achieving 5 or more A*-C grades at GCSE and equivalent
+KS4_LEVEL2_EM_15: Number of pupils achieving 5 or more A*-C grades at GCSE and equivalent including English and mathematics GCSEs
+KS4_LEVEL1_15: Number of pupils achieving 5 or more A*-G grades at GCSE and equivalent
+KS4_LEVEL1_EM_15: Number of pupils achieving 5 or more A*-G grades at GCSE and equivalent including English and mathematics GCSEs
+KS4_L2BASICS_15: Number of pupils achieving an A*-C grade in English and mathematics GCSEs	
+KS4_EBACC_E_15: Number of pupils entering the English Baccalaureate
+KS4_EBACC_15: Number of pupils achieving the English Baccalaureate
+
+SFR01_2016_UD_parliamentary_constituency.csv
+Country_code_9_digit: Country of school location code in new 9 digit format
+Country_code: Country of school location code in old 3 digit format
+Country_name: Country of school location name
+PCON_CODE: Parliamentary constituency code
+PCON_NAME: Parliamentary constituency name
+Cden_15: Number of pupils
+KS4_LEVEL2_15: Total number of pupils achieving 5 or more A*-C grades at GCSE or equivalent
+KS4_LEVEL2_EM_15: Total number of pupils achieving 5 or more A*-C grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_LEVEL1_15: Total number of pupils achieving 5 or more A*-G grades at GCSE or equivalent
+KS4_LEVEL1_EM_15: Total number of pupils achieving 5 or more A*-G grades at GCSE or equivalent including English and mathematics GCSEs
+KS4_L2BASICS_15: Total number of pupils achieving an A*-C grade in English and mathematics GCSEs	
+KS4_EBACC_E_15: Total number of pupils entering the English Baccalaureate
+KS4_EBACC_15: Total number of pupils achieving the English Baccalaureate 
+
+
+
+
+

@@ -1,0 +1,100 @@
+user_id,age,gender,occupation
+0,38,Female,Data analyst
+1,40,Female,team worker in it
+6,55,Female,IT
+8,25,Female,Manager
+10,23,Male,worker
+12,28,Female,Accountant
+16,31,Female,sales
+24,57,Female,it
+25,27,Female,Team leader
+26,28,Female,FINANCE
+27,29,Female,Finance
+28,33,Female,Sales
+29,61,Female,Ops Manager
+30,34,Male,ICT Officer
+32,39,Male,QA Software Manager
+33,30,Female,Healthcare
+35,41,Male,self employed
+36,42,Male,banking
+37,34,Female,nurse
+38,42,Male,executive
+52,25,Male,software developer
+53,38,-Select Gender-,null
+56,50,Female,manager
+60,48,Male,IT
+74,25,Male,Manager
+79,25,Male,Manager
+80,25,Male,worker
+84,33,Male,Warehousing
+85,33,Female,Sales
+91,34,Male,WEB DESIGN
+95,28,Male,Information Technology
+98,25,Female,Technical Engineer
+99,30,Male,information
+100,43,Female,IT
+104,32,Male,Administrator
+105,25,Female,System Administrator
+106,32,Male,manager
+110,36,Male,Marketing
+111,37,Female,EDUCATION
+112,30,Female,Security
+113,56,Female,retail
+114,46,Male,technician
+115,37,Female,homemaker
+116,32,Male,teacher
+119,49,Female,president transportation company
+120,50,Female,manager
+123,32,Male,manager
+124,50,Female,manager
+126,27,Female,Information Technology
+128,50,Female,manager
+129,61,Female,Information Technology
+137,29,Female,Information Technology
+140,29,Male,Information Technology
+142,32,Male,manager
+143,32,Male,manager
+144,38,-Select Gender-,ADMINISTRATIVE OFFICER
+145,32,Male,manager
+148,31,Female,Data analyst
+152,30,Female,Security
+154,32,Male,Information technology
+156,39,Female,master degree
+160,31,Male,construction
+162,50,Male,Manager
+164,21,Male,accountant
+169,38,-Select Gender-,Manager
+178,25,Male,software developer
+183,35,Male,team leader
+194,46,Male,Administrative officer
+200,48,Male,IT
+203,38,Female,IT
+204,30,Female,Administrative officer
+208,29,Male,Information Technology
+211,37,Female,SALES MANAGER
+215,42,Female,Purchase Manager
+226,27,Female,Information Technology
+227,32,Male,Information technology
+230,29,Female,Information Technology
+231,58,Male,ADMINISTRATIVE OFFICER
+232,46,Male,writer
+233,31,Male,construction
+234,32,Female,registered
+235,56,Male,business
+236,33,Male,Transportation
+237,33,Male,Education
+238,30,Male,Security
+240,37,Female,SALES MANAGER
+242,35,Male,HEALTHARE
+243,42,Female,Manager
+244,41,Male,MANAGER
+245,35,Male,HEALTHCARE
+246,45,Female,MANAGER
+251,39,Male,Computer technician
+252,58,Male,ADMINISTRATIVE OFFICER
+253,40,Female,Information Technology
+254,25,Female,software developer
+255,25,Male,software developer
+256,49,Male,Information Technology
+257,25,Female,Manager
+258,25,Male,Executive Manager

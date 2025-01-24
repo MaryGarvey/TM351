@@ -1,0 +1,9 @@
+INDICATOR_ID,INDICATOR_LABEL_EN
+HEXPCSTPPPCAP.CULHER,"Total expenditure  (public and private) per capita spent on cultural heritage (constant PPP$ - 2017)"
+HEXPCSTPPPCAP.HER,"Total expenditure per capita spent on the preservation, protection and conservation of all cultural and natural heritage (constant PPP$ - 2017)"
+HEXPCSTPPPCAP.HER.PR,"Total private expenditure per capita spent on cultural and natural heritage (constant PPP$ - 2017)"
+HEXPCSTPPPCAP.HER.PU,"Total public expenditure per capita spent on cultural and natural heritage (constant PPP$ - 2017)"
+HEXPCSTPPPCAP.NATHER,"Total expenditure (public and private) per capita spent on natural heritage (constant PPP$ - 2017)"
+HEXPCSTPPPCAPGOV.LOC.HER.PU,"Total public expenditure per capita at local/municipal level on cultural and natural heritage (constant PPP$ - 2017)"
+HEXPCSTPPPCAPGOV.NTL.HER.PU,"Total public expenditure per capita at national/federal level on cultural and natural heritage (constant PPP$ - 2017)"
+HEXPCSTPPPCAPGOV.REG.HER.PU,"Total public expenditure per capita at regional level on cultural and natural heritage (constant PPP$ - 2017)"

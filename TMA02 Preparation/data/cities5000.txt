@@ -1,0 +1,116 @@
+3039163	Sant Julià de Lòria	Sant Julia de Loria	San Julia,San Julià,Sant Julia de Loria,Sant Julià de Lòria,Sant-Zhulija-de-Lorija,sheng hu li ya-de luo li ya,Сант-Жулия-де-Лория,サン・ジュリア・デ・ロリア教区,圣胡利娅-德洛里亚,圣胡利娅－德洛里亚	42.46372	1.49129	P	PPLA	AD		06				8022		921	Europe/Andorra	2013-11-23
+3039678	Ordino	Ordino	Ordino,ao er di nuo,orudino jiao qu,Ордино,オルディノ教区,奥尔迪诺	42.55623	1.53319	P	PPLA	AD		05				3066		1296	Europe/Andorra	2018-10-26
+3040051	les Escaldes	les Escaldes	Ehskal'des-Ehndzhordani,Escaldes,Escaldes-Engordany,Les Escaldes,esukarudesu=engorudani jiao qu,lai sai si ka er de-en ge er da,Эскальдес-Энджордани,エスカルデス＝エンゴルダニ教区,萊塞斯卡爾德-恩戈爾達,萊塞斯卡爾德－恩戈爾達	42.50729	1.53414	P	PPLA	AD		08				15853		1033	Europe/Andorra	2024-06-20
+3040132	la Massana	la Massana	La Macana,La Massana,La Maçana,La-Massana,la Massana,ma sa na,Ла-Массана,ラ・マサナ教区,马萨纳	42.54499	1.51483	P	PPLA	AD		04				7211		1245	Europe/Andorra	2008-10-15
+3040686	Encamp	Encamp	Ehnkam,Encamp,en kan pu,enkanpu jiao qu,Энкам,エンカンプ教区,恩坎普	42.53474	1.58014	P	PPLA	AD		03				11223		1257	Europe/Andorra	2018-10-26
+3041204	Canillo	Canillo	Canillo,Kanil'o,ka ni e,kaniryo jiao qu,Канильо,カニーリョ教区,卡尼略	42.5676	1.59756	P	PPLA	AD		02				3292		1561	Europe/Andorra	2018-10-26
+3041563	Andorra la Vella	Andorra la Vella	ALV,Ando-la-Vyey,Andora,Andora la Vela,Andora la Velja,Andora lja Vehl'ja,Andoro Malnova,Andorra,Andorra Tuan,Andorra a Vella,Andorra la Biella,Andorra la Vella,Andorra la Vielha,Andorra-a-Velha,Andorra-la-Vel'ja,Andorra-la-Vielye,Andorre-la-Vieille,Andò-la-Vyèy,Andòrra la Vièlha,an dao er cheng,andolalabeya,andwra la fyla,Ανδόρρα,Андора ла Веля,Андора ла Веља,Андора ля Вэлья,Андорра-ла-Велья,אנדורה לה וולה,أندورا لا فيلا,አንዶራ ላ ቬላ,アンドラ・ラ・ヴェリャ,安道爾城,안도라라베야	42.50779	1.52109	P	PPLC	AD		07				20430		1037	Europe/Andorra	2020-03-03
+290503	Warīsān	Warisan	Warisan,Warsan,Warīsān,wrsan,ورسان	25.16744	55.40708	P	PPL	AE		03				108759		12	Asia/Dubai	2024-06-11
+290581	Umm Suqaym	Umm Suqaym	Umm Suqaym,Umm Suqeim,Umm Suqeim 2,Umm as Suqaym,am sqym,أم سقيم	25.15491	55.21015	P	PPLX	AE		03				16459		1	Asia/Dubai	2024-10-28
+290594	Umm Al Quwain City	Umm Al Quwain City	Oumm al Qaiwain,Oumm al Qaïwaïn,Um al Kawain,Um al Quweim,Umm Al Quwain City,Umm al Qaiwain,Umm al Qawain,Umm al Qaywayn,Umm al-Quwain,Umm-ehl'-Kajvajn,Yumul al Quwain,am alqywyn,mdynt am alqywyn,Умм-эль-Кайвайн,أم القيوين,مدينة ام القيوين	25.56473	55.55517	P	PPLA	AE		07				59098		2	Asia/Dubai	2025-04-17
+290680	Ţarīf Kalbā	Tarif Kalba	Tarif Kalba,Ţarīf Kalbā	25.0695	56.33115	P	PPL	AE		04				51000		10	Asia/Dubai	2025-04-17
+291061	Ar Rāshidīyah	Ar Rashidiyah	Al Rashidiya,Ar Rashidiyah,Ar Rāshidīyah,Rashdia,Rashidiyah,Rashīdīyah,alrashdyt,الراشدية	25.22499	55.38947	P	PPLX	AE		03				38425		10	Asia/Dubai	2024-10-28
+291074	Ras Al Khaimah City	Ras Al Khaimah City	Julfa,Khaimah,RAK City,RKT,Ra's al Khaymah,Ra's al-Chaima,Ras Al Khaimah City,Ras al Khaimah,Ras al-Khaimah,Ras el Khaimah,Ras el Khaïmah,Ras el-Kheima,Ras-ehl'-Khajma,Ra’s al Khaymah,Ra’s al-Chaima,mdynt ras alkhymt,ras alkhymt,Рас-эль-Хайма,رأس الخيمة,مدينة رأس الخيمة	25.78953	55.9432	P	PPLA	AE		05				351943		2	Asia/Dubai	2019-09-09
+291279	Muzayri‘	Muzayri'	Mezaira'a,Mezaira’a,Mizeir`ah,Mizeir‘ah,Mozayri`,Mozayri‘,Muzairi,Muzayri`,Muzayri‘,Музаири	23.14355	53.7881	P	PPL	AE		01	103	12747983		10000		123	Asia/Dubai	2024-03-14
+291489	Maşfūţ	Masfut	Masfut,Maşfūţ,Sha'biyyat Masfut,Sha'biyyāt Maşfūt	24.81089	56.10657	P	PPL	AE		02				8988	460	334	Asia/Dubai	2024-10-07
+291580	Zayed City	Zayed City	Bid' Zayed,Bid’ Zayed,Madinat Za'id,Madinat Zayid,Madīnat Zāyid,Madīnat Zā’id,Zayed City,mdynt zayd,مدينة زايد	23.65416	53.70522	P	PPL	AE		01	103	12748055		63482		118	Asia/Dubai	2024-03-14
+291696	Khawr Fakkān	Khawr Fakkan	Fakkan,Fakkān,Khawr Fakkan,Khawr Fakkān,Khawr al Fakkan,Khawr al Fakkān,Khor Fakhan,Khor Fakkan,Khor Fakkan City,Khor Fakkān,Khor al Fakhan,Khor al Fakkan,Khor al Fākhān,Khor'fakkan,Khor-Fakkan,Khorfakan,Khorfakhan,Port Khor Fakkan,mdynt khwr fkan,Хор-Факкан,مدينة خور فكان	25.33132	56.34199	P	PPL	AE		06				40677		20	Asia/Dubai	2024-09-12
+291763	Kalbā	Kalba	Ghalla,Ghallah,Ghālla,Ghāllah,Kalba,Kalbah,Kalbā,Qalba	25.0513	56.35422	P	PPL	AE		06				37545		15	Asia/Dubai	2024-10-17
+291775	Jumayrā	Jumayra	Jimeirah,Jumaira,Jumairah,Jumayra,Jumayrah,Jumayrā,Jumeira,Jumeirah,jmyra,جميرا	25.20795	55.24969	P	PPLX	AE		03				39080		5	Asia/Dubai	2024-04-03
+291794	Al Jazīrah al Ḩamrā’	Al Jazirah al Hamra'	Al Hamra',Al Jazeera Al Hamra,Al Jazirah al Hamra',Al Jazīrah al Ḩamrā’,Al Ḩamrā’,Hamra	25.7091	55.80772	P	PPL	AE		05				10190		3	Asia/Dubai	2024-10-28
+292223	Dubai	Dubai	DXB,Dabei,Dibai,Dibay,Doubayi,Dubae,Dubai,Dubai City,Dubai emiraat,Dubaija,Dubaj,Dubajo,Dubajus,Dubay,Dubayy,Dubaï,Dubái,Dúbæ,Fort Dabei,Ntoumpai,dby,dbyy,di bai,dobai,du bai,duba'i,dubai,dubay,dubi,dwbyy,tupai,Ντουμπάι,Дубаи,Дубай,Դուբայ,דובאי,דוביי,دبئی,دبى,دبي,دبی,دوبەی,دۇبائى,दुबई,দুবাই,துபை,దుబాయ్,ದುಬೈ,ദുബായ്,ดูไบ,დუბაი,ドバイ,杜拜,迪拜,두바이	25.07725	55.30927	P	PPLA	AE		03				3790000		24	Asia/Dubai	2025-04-17
+292231	Dibba Al-Fujairah	Dibba Al-Fujairah	Al-Fujairah,BYB,Dibba Al-Fujairah,dba alfjyrt,دبا الفجيرة	25.59246	56.26176	P	PPL	AE		04				30000		16	Asia/Dubai	2014-08-12
+292239	Dibba Al-Hisn	Dibba Al-Hisn	BYB,Daba,Daba al-Hisn,Dabā,Dabā al-Ḥiṣn,Diba,Diba Al Hisn,Diba al Hisn,Dibah,Dibba,Dibba Al Hisn,Dibba Al'-Khisn,Dibba Al-Hisn,Dibbah,Dibbā Al Ḩişn,Dibā,Dibā Al Ḩişn,Dībā al Ḩişn,Hisn Diba,Husn Dibba,Дибба Аль-Хисн,Ḩişn Dibā	25.61955	56.27291	P	PPL	AE		04				26395		4	Asia/Dubai	2024-07-14
+292261	Dayrah	Dayrah	Daira,Dairah,Dayrah,Deira,Dirah,Dīrah,dyrt,ديرة	25.27143	55.30207	P	PPLX	AE		03				400000		10	Asia/Dubai	2024-10-28
+292672	Sharjah	Sharjah	Al Sharjah,Ash 'Mariqah,Ash Shariqa,Ash Shariqah,Ash Shāriqa,Ash Shāriqah,Ash ’Mariqah,Ash-Shariqah emiraat,Ash-Shāriqah emiraat,Charjah,Ch·ardj·a,SHJ,Sardza,Sardzsa,Sarika,Sarja,Sarjo,Sarza,Schardscha,Shardza,Shardzha,Shardzha kuorat,Sharga,Sharijah,Shariqah,Sharja,Sharjah,Sharjah city,Shārijah,Shāriqah,Shārja,Szardza,Szardża,Xarja,Xarjah,alsharqt,amart alsharqt,carja,charc ah,mdynt alsharqt,saraja,sarajaha,sarja,sharja,sharjh,sharuja,syaleuja,sʼrgh,xia er jia,Ŝarĵo,Şarika,Şarja,Šardža,Šardžá,Шарджа,Шарджа куорат,Шарџа,Шарҗә,Շարժա,שארגה,إمارة الشارقة,الشارقة,شارجه,شارجہ,مدينة الشارقة,शारजा,शारजाह,ਸ਼ਾਰਜਾ,சார்ஜா,షార్జా,ಶಾರ್ಜ,ഷാർജ,ชาร์จาห์,შარჯა,シャールジャ,夏尔迦,샤르자	25.33737	55.41206	P	PPLA	AE		06				1800000		6	Asia/Dubai	2025-04-17
+292688	Ar Ruways	Ar Ruways	Ar Ru'ays,Ar Ruways,Ar Ru’ays,Ar-Ruvais,Ruwais,alrwys,ar-Ruways,lu wa si,ruvais,Ар-Руваис,الرويس,الرویس,റുവൈസ്,魯瓦斯,鲁瓦斯	24.11028	52.73056	P	PPL	AE		01	103	12748114		25000		16	Asia/Dubai	2024-03-14
+292799	Al Manāmah	Al Manamah	Al Manamah,Al Manāmah,Manama,Manamah,Manāmah	25.3299	56.02188	P	PPL	AE		02				5823		213	Asia/Dubai	2022-01-13
+292862	Ḩattā	Hatta	Al Hagarein,Al Hajarayn,Al Ḥagarein,Al Ḩajarayn,Hajarain,Hajarayn,Hajrain,Hatta,hta,حتا,Ḩajarayn,Ḩattā	24.80073	56.12726	P	PPL	AE		03	800	891		15324	335	331	Asia/Dubai	2024-10-03
+292878	Al Fujairah City	Al Fujairah City	Al Fujairah City,Al Fujayrah,Al-Fudjayra,Al-Fujayrah' emiraat,FJR,Fudschaira,Fudzhejra,Fujaira,Fujairah,Fujajro,Fujayrah,Fuĵajro,alfjyrt,fjyrt,fu ji la,fujaira,mdynt alfjyrt,Фуджейра,الفجيرة,فجيرة,مدينة الفجيرة,フジャイラ,富吉拉	25.11641	56.34141	P	PPLA	AE		04				118933		15	Asia/Dubai	2025-04-17
+292913	Al Ain City	Al Ain City	AAN,Ainas,Al Ain,Al Ain City,Al Ajn,Al Ayn,Al `Ayn,Al Ɛayn,Al ‘Ayn,Al-Ain,Al-Ajn,Al-Ayin,Al-Ayn,Al-Aïn,Ehl'-Ajn,El Ain,El-Ajn,ai yin,al ain,al-ain,al-aini,alʿyn,ela ena,mdynt alʿyn,Ел Аин,Эль-Айн,Ալ-Ային,אל-עין,العين,العین,مدينة العين,एल एन,அல் ஐன்,അൽ ഐൻ,ალ-აინი,アル・アイン,艾因,알아인	24.19167	55.76056	P	PPL	AE		01	102			846747		275	Asia/Dubai	2024-07-13
+292932	Ajman City	Ajman City	Ajman,Ajman City,Al Ajman,QAJ,Ujman,mdynt ʿjman,ʿjman,عجمان,مدينة عجمان	25.40177	55.47878	P	PPLA	AE		02				490035		2	Asia/Dubai	2019-05-29
+292953	Adh Dhayd	Adh Dhayd	Adh Dhaid,Adh Dhayd,Adh Dhed,Adh Dhēd,Al Daid,Al-Dhayd,Az-Zajd,Dayd,Dhaid,Dhayd,Duhayd,Ehd-Dajd,Ihaid,Zeyd,adh-Dhayd,aldhyd,da yi de,daid,dhyd,Эд-Дайд,الذيد,ذید,ദൈദ്,Ḑayd,達伊德	25.28812	55.88157	P	PPL	AE		06				20165		114	Asia/Dubai	2025-01-05
+292968	Abu Dhabi	Abu Dhabi	A-pu-that-pi,AEbu Saby,AUH,Aboe Dhabi,Abou Dabi,Abu Dabi,Abu Dabis,Abu Daby,Abu Daibi,Abu Dhabi,Abu Dhabi Island and Internal Islands City,Abu Dhabi emiraat,Abu Zabi,Abu Zaby,Abu Zabye,Abu Zabyo,Abu Ḍabi,Abu Ḑabi,Abu-Dabi,Abu-Dabi khot,Abu-Dabio,Abu-Dzabi,Abú Dabí,Abú Daibí,Abú Zabí,Abû Daby,Abū Dabī,Abū Z̧aby,Abū Z̧abye,Abū Z̧abyo,Abū Z̧abī,Ampou Ntampi,Ebu Dabi,Ebu Dhabi,a bu zha bi,abu dhabi,abu-dabi,abudabi,abudhabi,abw zby,abwzby,aputapi,jzyrt abwzby wjzr dakhlyt akhry,xa bud abi,Â-pu-tha̍t-pí,Äbu Saby,Əbu-Dabi,Άμπου Ντάμπι,Αμπου Νταμπι,Αμπού Ντάμπι,Абу Даби,Абу-Даби,Абу-Даби хот,Абу-Дабі,Әбу-Даби,Աբու Դաբի,אבו דאבי,أبوظبي,ئەبووزەبی,ابو ظبى,ابوظبی,ابوظہبی,جزيرة أبوظبي وجزر داخلية اخرى,अबु धाबी,अबू धाबी,আবুধাবি,ਅਬੂ ਧਾਬੀ,ଆବୁଧାବି,அபுதாபி,ಅಬು ಧಾಬಿ,അബുദാബി,අබුඩාබි,อาบูดาบี,ཨ་པོའུ་དྷ་པེ།,အဘူဒါဘီမြို့,აბუ-დაბი,አቡ ዳቢ,アブダビ,阿布扎比,아부다비	24.45118	54.39696	P	PPLC	AE		01	101			1807000		6	Asia/Dubai	2024-03-27
+292991	Abū Hayl	Abu Hayl	Abu Hail,Hail,Hāil	25.28413	55.33153	P	PPLX	AE		03				18043		3	Asia/Dubai	2024-10-28
+385024	As Saţwah	As Satwah	Al Satwa,As Satwah,As Saţwah,Satwa,alstwh,السطوه	25.22192	55.27459	P	PPLX	AE		03				40997		9	Asia/Dubai	2024-10-28
+412567	Nadd al Ḩumr	Nadd al Humr	Nad al Hamar,Nadd Al Hamar,Nadd al Hamar,Nadd al Humr,Nadd al Ḩamar,Nadd al Ḩumr,nd alhmr,ند الحمر	25.20131	55.38388	P	PPLX	AE		03				13589		10	Asia/Dubai	2024-10-28
+413256	Suwayḩān	Suwayhan	Suwayhan,Suwayḩān,Sweihan,suayhan,سُوَيْحَان	24.46235	55.33715	P	PPL	AE		01	102	12747987		5403		147	Asia/Dubai	2024-10-28
+414901	Al Ḩamīdīyah	Al Hamidiyah	Al Hamidiyah,Al Ḩamīdīyah,alhmydyt,الحميدية	25.40001	55.52925	P	PPLX	AE		02				27000		15	Asia/Dubai	2024-04-03
+6691079	Al Waheda	Al Waheda		25.29173	55.33822	P	PPLX	AE		03				21608		-1	Asia/Dubai	2024-10-28
+6691083	Al Twar First	Al Twar First	Al Twar 1	25.27148	55.36165	P	PPLX	AE		03				12114		2	Asia/Dubai	2024-10-28
+13132721	Chilongolo	Chilongolo		-15.49236	28.16456	P	PPL	ZM		09				13662		1236	Africa/Lusaka	2024-12-02
+13132722	Chilubi	Chilubi		-11.11459	29.94634	P	PPL	ZM		05				9962		1179	Africa/Lusaka	2024-12-02
+13132723	Chinkuli	Chinkuli		-15.29973	28.41596	P	PPL	ZM		09				14034		1128	Africa/Lusaka	2024-12-02
+13132724	Chisankane	Chisankane		-15.48211	28.35099	P	PPL	ZM		09				41014		1286	Africa/Lusaka	2024-12-02
+13132725	Chunga	Chunga		-15.31737	28.26868	P	PPL	ZM		09				115539		1197	Africa/Lusaka	2024-12-02
+13132726	Lusaka West	Lusaka West		-15.31864	28.11026	P	PPL	ZM		09				21655		1175	Africa/Lusaka	2024-12-02
+13132727	Madido	Madido		-15.35454	28.37416	P	PPL	ZM		09				80782		1229	Africa/Lusaka	2024-12-02
+13132728	Manyama	Manyama		-12.31477	25.84862	P	PPL	ZM		06				28825		1420	Africa/Lusaka	2024-12-02
+13132729	Mapalo	Mapalo		-12.93688	28.67206	P	PPL	ZM		08				26986		1248	Africa/Lusaka	2024-12-02
+13132730	Mufumbwe	Mufumbwe		-13.13701	25.00653	P	PPL	ZM		06				25667		1180	Africa/Lusaka	2024-12-02
+13132731	Mwansabombwe	Mwansabombwe		-9.82202	28.76038	P	PPL	ZM		04				16077		967	Africa/Lusaka	2024-12-02
+13132732	Namalombwe	Namalombwe		-15.39053	28.18986	P	PPL	ZM		09				97758		1239	Africa/Lusaka	2024-12-02
+13132733	Ntandabale	Ntandabale		-15.38958	28.42201	P	PPL	ZM		09				20254		1211	Africa/Lusaka	2024-12-02
+13132734	Palabana	Palabana		-15.44623	28.53436	P	PPL	ZM		09				19769		1226	Africa/Lusaka	2024-12-02
+878549	Zvishavane	Zvishavane	Shabani,Shavani,Zvishavane	-20.32674	30.06648	P	PPL	ZW		08				59717		998	Africa/Harare	2022-10-07
+879431	Victoria Falls	Victoria Falls	Chutes Victoria,VFA,Victoria Falls,Viktoria Akvofalo	-17.93285	25.83066	P	PPL	ZW		06	889941			35215		961	Africa/Harare	2024-12-02
+881164	Shurugwi	Shurugwi	Churugwi,Salukwe,Selukwe,Shurugwi	-19.67016	30.00589	P	PPL	ZW		02				23304		1483	Africa/Harare	2024-12-02
+881345	Shamva	Shamva	Shamva,Tsambvi,Tsamvi	-17.31159	31.57561	P	PPL	ZW		03				10317		947	Africa/Harare	2014-04-06
+882009	Ruwa	Ruwa	Ruva,Ruwa,lu wa,ruwa,rwwa,Рува,رووا,ルワ,魯瓦,鲁瓦	-17.88972	31.24472	P	PPL	ZW		04				94083		1562	Africa/Harare	2022-10-07
+882100	Rusape	Rusape	Rusape,Rusapi	-18.52785	32.12843	P	PPL	ZW		01				37906		1415	Africa/Harare	2024-12-02
+882599	Redcliff	Redcliff	Redcliff,Redcliffe,Redklif,Redkliff,Rehdkliff,reddokurifu,Редклиф,Редкліфф,Рэдклифф,ریڈکلف، زمبابوے,レッドクリフ	-19.03333	29.78333	P	PPL	ZW		02				41526		1232	Africa/Harare	2022-10-07
+882859	Plumtree	Plumtree	Plumtree	-20.48333	27.81667	P	PPL	ZW		07				14460		1384	Africa/Harare	2024-12-02
+882955	Penhalonga	Penhalonga	Penhalonga	-18.89112	32.69781	P	PPL	ZW		01				7681		1364	Africa/Harare	2012-01-17
+884141	Norton	Norton	Norton,Нортон	-17.88333	30.7	P	PPL	ZW		05				87039		1364	Africa/Harare	2024-12-02
+884798	Mvurwi	Mvurwi	Dawsons,Mvurwi,Umvukwes,n'vurui,ンヴルィ	-17.03333	30.85	P	PPL	ZW		03				15646		1495	Africa/Harare	2024-12-02
+884927	Mutoko	Mutoko	Mtoko,Mutoko	-17.39699	32.22677	P	PPL	ZW		04				12336		1285	Africa/Harare	2024-12-02
+884979	Mutare	Mutare	Mutare,Mutareh,Mutarė,Nyautare,UTA,Umtali,mu ta lei,mutale,Мутаре,Мутарэ,穆塔雷,무타레	-18.9707	32.67086	P	PPLA	ZW		01				224804		1116	Africa/Harare	2024-12-02
+885159	Murewa	Murewa	Mrewa,Murehwa,Murewa,mwrywa,موریوا	-17.64322	31.784	P	PPL	ZW		04				11750		1365	Africa/Harare	2024-12-02
+885792	Mount Hampden	Mount Hampden	Mount Hampden,Mount Hampden Junction,Mount Hampton,Musitkwe	-17.74167	30.93889	P	PPLX	ZW		04				9245		1468	Africa/Harare	2024-12-02
+885800	Mount Darwin	Mount Darwin	Darwin,Fura,Mount Darwin,Mount Fura	-16.77251	31.58381	P	PPL	ZW		03				6349		955	Africa/Harare	2014-04-06
+886146	Mhangura	Mhangura	Mangula,Mhangura	-16.89387	30.16828	P	PPL	ZW		05				6503		1182	Africa/Harare	2014-04-06
+886384	Mazowe	Mazowe	Mazowe	-17.50404	30.97388	P	PPL	ZW		03				9966		1249	Africa/Harare	2014-03-19
+886763	Masvingo	Masvingo	Fort Victoria,MVZ,Mashvingo,Masvingo,Nyanda,Машвинго	-20.06373	30.82766	P	PPLA	ZW		08				90286		1091	Africa/Harare	2023-02-24
+886864	Mashava	Mashava	Mashaba,Mashava	-20.03665	30.48225	P	PPL	ZW		08				12994		1046	Africa/Harare	2012-01-17
+886990	Marondera	Marondera	Marandellas,Marondera	-18.18527	31.55193	P	PPLA	ZW		04				66204		1668	Africa/Harare	2024-12-02
+888225	Lupane	Lupane	Lupane,Lupani	-18.93149	27.80696	P	PPLA	ZW		06				2211		1016	Africa/Harare	2024-12-02
+888710	Kwekwe	Kwekwe	Hwe Hwe,Kvekve,Kvekvė,Kwekwe,Que Que,kui kui shi,kwekwe,kwykwy,kwyykwyy,Квекве,كويكوى,کوئیکوئی,奎奎市,퀘퀘	-18.92809	29.81486	P	PPL	ZW		02				119863		1203	Africa/Harare	2022-10-07
+889191	Karoi	Karoi	Karoi,Karoyi,ka lai yi,karoi,karwy,Карои,کاروی,カロイ,卡萊伊	-16.80993	29.69247	P	PPL	ZW		05				37564		1259	Africa/Harare	2024-12-02
+889215	Kariba	Kariba	KAB,Kariba,ka li ba,kaliba,karyba,Кариба,كاريبا,کاریبا، زمبابوے,卡里巴,카리바	-16.51667	28.8	P	PPL	ZW		05				27600		679	Africa/Harare	2022-10-07
+889453	Kadoma	Kadoma	Gatooma,Kadoma,Kadome,Katoma,ka duo ma,kadoma,Кадома,Кадоме,کادوما، زمبابوے,カドマ,卡多馬,카도마	-18.33328	29.91534	P	PPL	ZW		05				117381		1176	Africa/Harare	2024-12-02
+889723	Inyati	Inyati	Inyati	-19.67563	28.84687	P	PPL	ZW		06				8402		1333	Africa/Harare	2014-03-23
+889942	Hwange	Hwange	Hvange,Hvangė,Hwange,Khvange,WKI,Wange,Wankie,hwang-ge,hwanj,wan ji,wange,Хванге,هوانج,ワンゲ,万基,萬基,황게	-18.36446	26.49877	P	PPL	ZW		06	889941			39750		767	Africa/Harare	2024-12-02
+890299	Harare	Harare	Arare,Charare,HRE,Harare,Hararensis Urbs,Harareo,Hararė,Kharare,Kharareh,Salisbury,ha la lei,halale,harare,harary,hrarh,hrary,Χαράρε,Хараре,Харарэ,Հարարե,הארארה,هارارى,هراره,هراري,ھارارې,ھەرارێ,ہرارے,हरारे,ਹਰਾਰੇ,ହାରାରେ,ஹராரே,ฮาราเร,ཧ་ར་རི།,ჰარარე,ሀራሬ,ハラレ,哈拉雷,하라레	-17.82772	31.05337	P	PPLC	ZW		10				1542813		1494	Africa/Harare	2025-02-07
+890422	Gweru	Gweru	GWE,Gveru,Gwelo,Gweru,Гверу	-19.45	29.81667	P	PPLA	ZW		02				159050		1412	Africa/Harare	2024-12-02
+890516	Gwanda	Gwanda	Gvanda,Gwanda,Jawunda,guan da,Гванда,گوانڈا,關達	-20.93622	29.00698	P	PPLA	ZW		07				26700		986	Africa/Harare	2023-02-24
+890983	Gokwe	Gokwe	Gokwe	-18.20476	28.9349	P	PPL	ZW		02				33073		1237	Africa/Harare	2024-12-02
+891099	Glendale	Glendale	Glendale	-17.35514	31.06718	P	PPL	ZW		03				9798		1143	Africa/Harare	2024-12-02
+893172	Chivhu	Chivhu	Chivhu,Enkeldoorn	-19.02112	30.89218	P	PPL	ZW		04				12958		1450	Africa/Harare	2024-12-02
+893485	Chiredzi	Chiredzi	BFO,Chiredzi	-21.05	31.66667	P	PPL	ZW		08				40100		436	Africa/Harare	2022-10-07
+893549	Chipinge	Chipinge	CHJ,Chipinga,Chipinge	-20.18833	32.62365	P	PPL	ZW		01				34959		1109	Africa/Harare	2022-10-07
+893697	Chinhoyi	Chinhoyi	Chinhoyi,Chinkhoi,Chinkhoji,Chinoyi,Cinhojis,Sinoia,qi nuo yi,Činhojis,Чинхойи,Чинхої,Чинхоји,چینہوئی,奇諾伊	-17.36667	30.2	P	PPLA	ZW		05				90800		1153	Africa/Harare	2023-02-24
+894239	Chegutu	Chegutu	Cheguto,Chegutu,Hartley,New Hartley	-18.13021	30.14074	P	PPL	ZW		05				65800		1187	Africa/Harare	2022-10-07
+894413	Chakari	Chakari	Chakari,Shagari	-18.06294	29.89246	P	PPL	ZW		05				6472		1107	Africa/Harare	2022-10-07
+894701	Bulawayo	Bulawayo	BUQ,Bulavajas,Bulavajo,Bulavejo,Bulawayo,bu la wa yue,bullawayo,burawayo,Булавайо,Булаваё,Булавајо,Булавейо,ブラワヨ,布拉瓦约,불라와요	-20.15	28.58333	P	PPLA	ZW		09				1200337		1348	Africa/Harare	2023-02-24
+895061	Bindura	Bindura	Bindura,Bindura Town,Kimberley Reefs,Биндура	-17.30192	31.33056	P	PPLA	ZW		03				50400		1118	Africa/Harare	2023-02-24
+895269	Beitbridge	Beitbridge	Bajtbridz,Bajtbridzh,Beitbridge,Beitbridzas,Beitbridžas,Beitbrug,bei te qiao,beitoburijji,bytbrydj,Байтбридж,Бајтбриџ,Беитбридге,بيتبريدج,بیٹبریج,ベイトブリッジ,貝特橋	-22.21667	30	P	PPL	ZW		07				58574		461	Africa/Harare	2024-12-02
+895417	Banket	Banket	Banket,Banket Junction	-17.38333	30.4	P	PPL	ZW		05				9845		1277	Africa/Harare	2024-12-02
+1085510	Epworth	Epworth	Epworth	-17.89	31.1475	P	PPLX	ZW		10				206368		1508	Africa/Harare	2024-12-02
+1106542	Chitungwiza	Chitungwiza	Chitungviza,Chitungwiza,Chytungviza,Citungviza,chytwngwyza,Čitungviza,Читунгвиза,Читунгвіза,Чытунгвіза,چیتونگویزا	-18.01274	31.07555	P	PPL	ZW		10				371246		1435	Africa/Harare	2024-12-02
+13132735	Harare Western Suburbs	Harare Western Suburbs		-17.8415	30.87674	P	PPL	ZW		05				15556		1460	Africa/Harare	2024-12-02
+2633397	Yeadon	Yeadon	Yeadon i West Yorkshire	53.86437	-1.68743	P	PPL	GB		ENG	H3			37379		165	Europe/London	2013-07-11
+2633399	Yaxley	Yaxley	Yaxley	52.51768	-0.25852	P	PPL	GB		ENG	C3	12UE	12UE084	9174		23	Europe/London	2018-07-03
+2633404	Yatton	Yatton	Jatton,Yatton,Яттон	51.38839	-2.82353	P	PPLA3	GB		ENG	J4	00HC037		10251		11	Europe/London	2017-06-12
+2633406	Yate	Yate	yath,یاته	51.54074	-2.41839	P	PPL	GB		ENG	M6	00HD044		34406		80	Europe/London	2020-10-24
+2633415	Yarm	Yarm	Yarm,Yarm on Tees,yarm,یارم	54.50364	-1.35793	P	PPLA3	GB		ENG	N3	00EF018		19184		24	Europe/London	2017-06-12
+2633422	Yapton	Yapton	Yapton	50.8209	-0.613	P	PPL	GB		ENG	P6	45UC	45UC031	5459		6	Europe/London	2018-07-03
+2633476	Wroughton	Wroughton		51.52411	-1.79559	P	PPL	GB		ENG	N9	00HX015		6474		118	Europe/London	2017-06-12
+2633485	Wrexham	Wrexham	Reksamas,Reksem,Reksum,Rexam,Wrecsam,Wreksam,Wrexham,legseom,lei ke si han mu,rekusamu,wrksam,Ρέξαμ,Рексем,Рексъм,Ռեքսհեմ,רקסהאם,ورکسام,レクサム,雷克斯漢姆,렉섬	53.04664	-2.99132	P	PPLA2	GB		WLS	Z4	00NL007		65692		87	Europe/London	2017-06-12
+2633511	Wotton-under-Edge	Wotton-under-Edge	Wotton-under-Edge,awtwn-andr-aj,اوتون-آندر-اج	51.63242	-2.34512	P	PPL	GB		ENG	E6	23UF	23UF052	5627		82	Europe/London	2019-10-02
+2633521	Worthing	Worthing	Vorting,Vortingo,Worthing,wajingu,wwrtyng,Вортинг,وورتینگ,ワージング	50.81795	-0.37538	P	PPL	GB		ENG	P6	45UH		99110		7	Europe/London	2021-08-08
+2633551	Worksop	Worksop	Uehrksop,Uurksop,Worksop,wwrksap,Уърксоп,Уэрксоп,وورکساپ	53.30182	-1.12404	P	PPL	GB		ENG	J9	37UC		43252		46	Europe/London	2017-06-12
+2633553	Workington	Workington	Uurkingtun,wo jin dun,wwrkyngtwn,Уъркингтън,وورکینگتون,沃金頓	54.6425	-3.54413	P	PPL	GB		ENG	C9	E06000063	16UB061	27120		20	Europe/London	2023-08-03
+2633561	Worcester Park	Worcester Park	Old Malden,Worcester Park	51.37992	-0.24445	P	PPL	GB		ENG	GLA	N8		16031		24	Europe/London	2019-08-22
+2633563	Worcester	Worcester	Caerwrangon,City of Worcester,UWC,Ustur,Vigornia,Vustehr,Vuster,Vusteris,Wiogoraceastre,Worcester,useuteo,usuta,vuster,wo shi da,wrkstr,wstr,wu si te,wurs texr,wwstr,Вустер,Вустэр,Устър,Վուսթեր,ورکستر,وستر,وورسسٹر,ووستر,ووسٹر,วุร์สเตอร์,ウスター,伍斯特,窩士打,우스터	52.18935	-2.22001	P	PPLA2	GB		ENG	Q4	47UE		101659		29	Europe/London	2023-02-25
+2633571	Royal Wootton Bassett	Royal Wootton Bassett	Royal Wootton Bassett,Wooton Bassett,Wootton Bassett,rwyal wwtwn bast,رویال ووتون باست	51.5419	-1.9045	P	PPL	GB		ENG	P8	00HY254		11265		129	Europe/London	2017-06-12
+2633586	Woolton	Woolton	Woolton,hu er dun,uruton,wu er dun,wwltwn,וולטון,وولتون,ウールトン,伍爾頓,胡尔顿	53.37401	-2.87	P	PPL	GB		ENG	H8			12921		62	Europe/London	2024-04-14
